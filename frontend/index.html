@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AICTE Regulatory Intelligence &amp; Application Verification System (Prototype)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<a class="skip" href="#main">Skip to main content</a>
+<div class="proto">⚠ Prototype / Demonstration System — Not an Official Government Portal. Independent project developed for Smart India Hackathon 2026 (SIH26261). Uses SYNTHETIC data.</div>
+<div class="topbar"><span>भारत सरकार | Government of India</span>
+<span><a href="#main" style="color:#000">Skip to main content</a> | <button onclick="fz(-1)" title="Decrease text">A-</button> <button onclick="fz(0)">A</button> <button onclick="fz(1)">A+</button> <button onclick="document.body.classList.toggle('hc')">High Contrast</button>
+ <select id="lang" onchange="setLang(this.value)" aria-label="Language"><option value="en">English</option><option value="hi">हिन्दी</option></select> <a href="#/help" id="helpL">Help</a></span></div>
+<div class="hdr">
+ <img src="assets/emblem.svg" onerror="this.onerror=null;this.src='assets/emblem-placeholder.svg'" alt="State Emblem of India">
+ <div><div class="t1">Ministry of Education, Government of India</div><div class="t2">शिक्षा मंत्रालय, भारत सरकार</div></div><div class="sp"></div>
+ <img src="assets/moe.svg" onerror="this.onerror=null;this.src='assets/moe-placeholder.svg'" alt="Ministry of Education" style="height:46px">
+ <img src="assets/aicte.jpg" onerror="this.onerror=null;this.src='assets/aicte-placeholder.svg'" alt="AICTE logo" style="height:54px"></div>
+<div class="tri"></div>
+<div class="title"><div>AICTE Regulatory Intelligence &amp; Application Verification System <small>— All India Council for Technical Education</small></div><div class="tools" id="tools"></div></div>
+<nav class="nav" id="nav" aria-label="Main navigation"></nav>
+<div class="ticker"><b>Latest</b><span id="tick">AI findings are advisory. Final scrutiny and regulatory decisions rest with the competent authority. (Prototype content)</span></div>
+<main id="main"></main>
+<footer><div><a href="#/help">Help</a><a href="#/help">Accessibility Statement</a><a href="#/help">Privacy Policy</a><a href="#/help">Terms of Use</a></div>
+<p>Independent prototype for Smart India Hackathon 2026. Emblem/logo placeholders must be replaced by official assets used in accordance with applicable usage guidelines (see README). Not affiliated with or endorsed by the Government of India, the Ministry of Education or AICTE. Data handled per principles of the Digital Personal Data Protection Act, 2023 (design intent; prototype).</p></footer>
+<div id="modal"></div><script src="app.js"></script></body></html>

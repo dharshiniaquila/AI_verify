@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+pypdf>=4.0
+Pillow>=10.0
+reportlab>=4.0
+requests>=2.31
+# optional local OCR (not required when a Gemini key is set):
+# paddleocr  paddlepaddle     or     pytesseract (+ Tesseract binary)
